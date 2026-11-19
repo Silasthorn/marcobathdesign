@@ -205,7 +205,7 @@
   .callout-light p strong{color:var(--ink)}
 
   .about-grid{display:grid;gap:24px}
-  @media(min-width:860px){ .about-grid{grid-template-columns:.88fr 1.12fr;gap:36px;align-items:start} }
+  @media(min-width:860px){ .about-grid{grid-template-columns:1fr;gap:28px;max-width:920px} }
   .about-content{display:flex;flex-direction:column;gap:20px}
   .marco-portrait-main{margin:0;width:65%;justify-self:center;background:var(--surface);border:1px solid var(--line);border-radius:24px;overflow:hidden;box-shadow:var(--shadow)}
   .marco-portrait-main img{width:100%;display:block;aspect-ratio:4/4.6;object-fit:cover;object-position:center 16%}
@@ -912,14 +912,6 @@ footer strong,footer a{color:#FFFFFF !important}
         <h2>The consultant, not a call center</h2>
       </div>
       <div class="about-grid">
-        <figure class="marco-portrait-main">
-          <img src="assets/marco-portrait.jpg" alt="Marco, bathroom remodel consultant" />
-          <figcaption class="marco-portrait-caption">
-            <strong>Marco</strong>
-            <span>Bathroom Remodel Consultant — San Gabriel Valley &amp; Inland Empire</span>
-            <span>CSLB Home Improvement Salesperson (HIS) Registration No. 142561</span>
-          </figcaption>
-        </figure>
         <div class="about-content">
           <div class="about-main">
             <p>When you reach out here, you get <strong>Marco</strong> — a local design consultant who does in-home tub and shower conversion visits across the San Gabriel Valley and the Inland Empire.</p>
@@ -1025,10 +1017,9 @@ footer strong,footer a{color:#FFFFFF !important}
           <h2>Book your free consultation</h2>
           <p>Tell me a little about your tub or shower project and I'll get back to you to pick a time that works. The visit is free, at your home, with no obligation.</p>
           <div class="form-meet">
-            <img class="form-avatar" src="assets/marco-portrait.jpg" alt="Marco, bathroom remodel consultant" />
             <div>
               <strong>You'll be meeting Marco</strong>
-              <span>I'm the consultant who shows up at your door — the same person you see here.</span>
+              <span>I'm the consultant who shows up at your door.</span>
             </div>
           </div>
           <ul>
